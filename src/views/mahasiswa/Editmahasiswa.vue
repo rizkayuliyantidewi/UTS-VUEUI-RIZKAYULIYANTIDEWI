@@ -67,7 +67,7 @@
         </div>
 
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Edit</button>
         </div>
       </form>
     </div>
@@ -122,11 +122,11 @@ export default {
           nama_mahasiswa: nama_mahasiswa,
           alamat: alamat,
           no_tlp: no_tlp,
-          email: email,
+          email: email
         })
         .then(() => {
           router.push({
-            name: "Home",
+            name: 'Home',
           });
         })
         .catch((error) => {

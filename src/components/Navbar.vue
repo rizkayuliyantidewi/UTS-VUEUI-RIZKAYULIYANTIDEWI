@@ -22,6 +22,19 @@
           <li class="nav-item">
            <router-link class="nav-link" to="/matakuliah">Matakuliah</router-link>
           </li> 
+           <li class="nav-item">
+           <router-link class="nav-link" to="/absensi">Absensi</router-link>
+          </li> 
+           <li class="nav-item">
+           <router-link class="nav-link" to="/kontrak">Kontrak matakuliah</router-link>
+          </li> 
+           <li class="nav-item">
+           <router-link class="nav-link" to="/jadwal">Jadwal</router-link>
+          </li> 
+           <li class="nav-item">
+           <router-link class="nav-link" to="/semester">Semester</router-link>
+          </li> 
+           
          
           
         </ul>
